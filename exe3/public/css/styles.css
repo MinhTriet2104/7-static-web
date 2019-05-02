@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-toggler {
+    background: #999ca0;
+}
+
+.img-logo {
+    width: 100px;
+}
+
+.top-header {
+    padding-top: 10px;
+}
+
+.top-header .navbar {
+    padding: 0 50px;
+}
+
+.top-header {
+    background: #f97f00;
+}
+
+.top-header .bg-white {
+    background: white;
+}
+
+.top-header .navbar-orange {
+    background: white;
+}
+
+.top-header li.nav-item {
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.top-header li.nav-item a.nav-link {
+    color: #f97f00;
+    font-weight: bold;
+}
+
+.top-header li.active {
+    background: #f97f00;
+}
+
+.top-header li.active a.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.banner .banner-content {
+    background: white;
+    border-radius: 200px;
+    margin: 150px auto;
+    padding: 60px;
+}
+
+.banner .banner-content h1 {
+    color: #f97f00;
+    font-size: 1.3em;
+}
+
+.main-content {
+    padding: 50px 0;
+}
+
+.main-content .introduce h2 {
+    color: #f97f00;
+    border-bottom: 3px solid #f97f00;
+    margin-bottom: 50px;
+}
+
+.main-content .introduce h4 {
+    margin-bottom: 30px;
+}
+
+.main-content .introduce .p1 {
+    color: #9e9b9a;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+.main-content .introduce .p2 {
+    color: #f97f00;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+.main-content .introduce .img-outline {
+    border: 1px dotted #ebebeb;
+    padding: 7px;
+}
+
+.event {
+    margin: 100px 0;
+}
+
+.main-content .event h2 {
+    color: #f97f00;
+    border-bottom: 3px solid #f97f00;
+    margin-bottom: 40px;
+}
+
+.main-content .event .event-img {
+    border: 1px dotted #5c94c5;
+    padding: 7px;
+}
+
+.main-content .event .event-content .date {
+    background: #dddddd;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+.main-content .event .event-content .p-event {
+    margin-top: 15px;
+    color: #999ca0;
+    font-weight: bold;
+}
+
+.main-content .event .event-img {
+    margin-top: 30px;
+}
+
+.main-content .event .event-content {
+    margin-top: 30px;
+}
+
+footer {
+    background: #22a228;
+    color: white;
+    font-size: 1.2em;
+    padding: 30px 0;
+}
+

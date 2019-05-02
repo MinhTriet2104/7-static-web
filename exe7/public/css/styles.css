@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-header .logo {
+    padding: 30px 0;
+}
+
+.top-header nav .nav-item {
+    padding: 15px 25px;
+}
+
+.top-header nav .nav-item .nav-link {
+    letter-spacing: 0.05em;
+    color: black;
+    font-weight: bold;
+}
+
+.top-header nav .active {
+    border: 2px solid #ff9b05;
+    border-right: none;
+}
+
+.top-header nav .active .nav-link {
+    color: #ff9b05;
+}
+
+.top-header nav .price {
+    padding-right: 0px;
+}
+
+.top-header .banner-img {
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+.top-header .banner-img h1 {
+    color: white;
+    font-size: 2em;
+    padding: 10px 0;
+}
+
+.top-header .banner-img h2 {
+    color: #ff9b05;
+    font-size: 2em;
+    padding: 15px 0;
+}
+
+.top-header .banner-img .btn-orange {
+    background: #ff9b05;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 20px;
+    font-size: 1.1em;
+}
+
+.main-content {
+    padding: 50px 0;
+}
+
+.main-content .category {
+    border-bottom: 1px solid #ff9b05;
+}
+
+.main-content .category a {
+    padding: 10px 30px;
+    background: #ff9b05;
+    color: white;
+    display: inline-block;
+    font-size: 1.1em;
+    letter-spacing: 0.08em;
+}
+
+.main-content .img-content {
+    padding: 30px 0;
+}
+
+.main-content .img-content h5 {
+    color: #ff9b05;
+}
+
+.main-content .img-content span.price {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.main-content .img-content .btn-add {
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 1.1em;
+    padding: 5px 20px;
+}
+
+.news-letter {
+    background: #ececec;
+    padding: 50px 0;
+}
+
+.news-letter p {
+    color: #9999a3;
+}
+
+.news-letter input {
+    padding: 10px 0;
+    width: 70%;
+    display: block;
+    float: left;
+}
+
+.news-letter input::placeholder {
+    color: black;
+}
+
+.news-letter .btn-send {
+    padding: 11px 30px;
+    background: #ff9b05;
+    color: white;
+    border-radius: 0;
+}
+
+footer {
+    padding: 30px 0;
+    font-size: 1.1em;
+}

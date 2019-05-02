@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-header .icon-cart {
+    background: black;
+    padding: 5px 0;
+}
+
+.top-header .icon-cart a {
+    color: white;
+}
+
+.top-header .logo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul li.nav-item {
+    padding: 5px 30px;
+}
+
+nav ul .nav-item .nav-link {
+    color: black;
+}
+
+nav ul li.active {
+    background: black;
+    padding: 5px 30px;
+}
+
+nav ul li.active .nav-link {
+    color: white;
+}
+
+.banner {
+    padding: 50px 0;
+    vertical-align: middle;
+}
+
+.banner .banner-content {
+    text-align: right;
+    margin-top: 70px;
+}
+
+.banner .banner-content h1{
+    font-size: 3em;
+}
+
+.banner .banner-content p{
+    color: #a5a5a5;
+}
+
+.banner .banner-content .btn-shop-now {
+    border: 1px solid #a5a5a5;
+    border-radius: 0;
+    margin-top: 30px;
+    padding: 5px 25px;
+}
+
+.main-content {
+    background: #f9f9f9;
+    padding: 40px 0;
+}
+
+.main-content .item {
+    background: white;
+    border: 1px solid #d4d4d4;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.main-content .item p {
+    font-size: 0.9em;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.main-content .item .btn-add {
+    background: #e0e0e0;
+    border-radius: 0;
+    border-left: 7px solid #e45d5d;
+    color: black;
+    text-decoration: none;
+    padding: 6px 0;
+}
+
+.main-content .item a {
+    font-weight: bold;
+}
+
+.main-content .item .col-md-4{
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 6px 0;
+    background: #f5f5f5;
+}
+
+.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+footer {
+    background: #08080b;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.arrow-up {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+

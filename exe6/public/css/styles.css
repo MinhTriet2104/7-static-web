@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-header .shopping-cart {
+    text-align: right;
+    font-size: 1em;
+    padding: 30px 0;
+    border-bottom: 1.5px solid #ededed;
+}
+
+.top-header nav .nav-item {
+    padding: 0px 10px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.top-header nav .active {
+    border: 3px solid #d8703f;
+    border-radius: 50px;
+}
+
+.top-header nav .nav-item .nav-link {
+    color: #868686;
+}
+
+.top-header nav .active .nav-link {
+    color: #d8703f;
+}
+
+.top-header .banner {
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    padding: 100px 0;
+    margin-top: 30px;
+}
+
+.top-header .banner h1 {
+    color: white;
+    font-size: 4em;
+}
+
+.top-header .banner .btn-orange {
+    color: white;
+    background: #d8703f;
+    border-radius: 50px;
+    padding: 15px 50px;
+    margin-top: 30px;
+}
+
+.main-content {
+    background: #f7f7f9;
+    padding: 100px 0;
+}
+
+.main-content h1 {
+    font-size: 3em;
+    padding: 30px 0;
+}
+
+.main-content .items .item {
+    background: white;
+    padding: 10px;
+}
+
+.main-content .items .item h3 {
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+.item .star {
+    color: #ffd700;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+.main-content .items .item p {
+    color: #a1a3a0;
+    font-size: 0.9em;
+}
+
+.main-content .items .item .price {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.main-content .items .item .add-btn {
+    border: 2px solid #ebb79f;
+    border-radius: 0;
+    color: #d87141;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 5px 20px;
+}
+
+.join-us {
+    background: white;
+    padding: 100px 0;
+}
+
+.join-us .email-form input {
+    border: none;
+    width: 50%;
+    background: transparent;
+}
+
+.join-us .email-form .email-area {
+    display: inline;
+    border-bottom: 1px solid #dededf;
+    padding: 10px;
+}
+
+.join-us .btn-orange {
+    color: white;
+    background: #d8703f;
+    border-radius: 0;
+    padding: 10px 30px;
+}
+
+.join-us .email-form .orange-icon {
+    color: #ffc229;
+}
+
+footer {
+    background: #2e2e2e;
+    padding: 50px 0;
+    color: #999999;
+    font-weight: bold;
+}
